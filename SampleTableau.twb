@@ -1,0 +1,936 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0219.0753                               -->
+<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='galFiltered.sif default network' inline='true' name='federated.1j4sv07192fqvi1cayd7m00wqmbk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='galFiltered.sif default network' name='textscan.1v84pml03gwrjt19zl7to0nyhpz1'>
+            <connection class='textscan' directory='C:/Users/Administrator/Documents/Cytoscape Viewer' filename='galFiltered.sif default network.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1v84pml03gwrjt19zl7to0nyhpz1' name='galFiltered.sif default network.csv' table='[galFiltered.sif default network#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='he_IL' separator=','>
+            <column datatype='integer' name='SUID' ordinal='0' />
+            <column datatype='string' name='__Annotations' ordinal='1' />
+            <column datatype='string' name='Dataset Name' ordinal='2' />
+            <column datatype='string' name='Dataset URL' ordinal='3' />
+            <column datatype='string' name='name' ordinal='4' />
+            <column datatype='string' name='publication' ordinal='5' />
+            <column datatype='boolean' name='selected' ordinal='6' />
+            <column datatype='string' name='shared name' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[galFiltered.sif default network.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;he&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₪&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;he_IL&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SUID]</local-name>
+            <parent-name>[galFiltered.sif default network.csv]</parent-name>
+            <remote-alias>SUID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>__Annotations</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[__Annotations]</local-name>
+            <parent-name>[galFiltered.sif default network.csv]</parent-name>
+            <remote-alias>__Annotations</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LHE_RIL' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dataset Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dataset Name]</local-name>
+            <parent-name>[galFiltered.sif default network.csv]</parent-name>
+            <remote-alias>Dataset Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LHE_RIL' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dataset URL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dataset URL]</local-name>
+            <parent-name>[galFiltered.sif default network.csv]</parent-name>
+            <remote-alias>Dataset URL</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LHE_RIL' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[galFiltered.sif default network.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LHE_RIL' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>publication</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[publication]</local-name>
+            <parent-name>[galFiltered.sif default network.csv]</parent-name>
+            <remote-alias>publication</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LHE_RIL' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>selected</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[selected]</local-name>
+            <parent-name>[galFiltered.sif default network.csv]</parent-name>
+            <remote-alias>selected</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shared name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shared name]</local-name>
+            <parent-name>[galFiltered.sif default network.csv]</parent-name>
+            <remote-alias>shared name</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LHE_RIL' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.674107' measure-ordering='alphabetic' measure-percentage='0.325893' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Israel&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='galFiltered.sif default node' inline='true' name='federated.1efrg290tytyjc14g72ag0z79pjt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='galFiltered.sif default node' name='textscan.1collg20pg09ev1dio8601jpu7dk'>
+            <connection class='textscan' directory='C:/Users/Administrator/Documents/Cytoscape Viewer' filename='galFiltered.sif default node.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1collg20pg09ev1dio8601jpu7dk' name='galFiltered.sif default node.csv' table='[galFiltered.sif default node#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='he_IL' separator=','>
+            <column datatype='integer' name='SUID' ordinal='0' />
+            <column datatype='real' name='AverageShortestPathLength' ordinal='1' />
+            <column datatype='real' name='BetweennessCentrality' ordinal='2' />
+            <column datatype='real' name='ClosenessCentrality' ordinal='3' />
+            <column datatype='real' name='ClusteringCoefficient' ordinal='4' />
+            <column datatype='string' name='COMMON' ordinal='5' />
+            <column datatype='integer' name='Degree' ordinal='6' />
+            <column datatype='integer' name='degree.layout' ordinal='7' />
+            <column datatype='integer' name='Eccentricity' ordinal='8' />
+            <column datatype='real' name='gal1RGexp' ordinal='9' />
+            <column datatype='real' name='gal1RGsig' ordinal='10' />
+            <column datatype='real' name='gal4RGexp' ordinal='11' />
+            <column datatype='real' name='gal4RGsig' ordinal='12' />
+            <column datatype='real' name='gal80Rexp' ordinal='13' />
+            <column datatype='real' name='gal80Rsig' ordinal='14' />
+            <column datatype='boolean' name='isExcludedFromPaths' ordinal='15' />
+            <column datatype='boolean' name='IsSingleNode' ordinal='16' />
+            <column datatype='string' name='name' ordinal='17' />
+            <column datatype='real' name='NeighborhoodConnectivity' ordinal='18' />
+            <column datatype='integer' name='NumberOfDirectedEdges' ordinal='19' />
+            <column datatype='integer' name='NumberOfUndirectedEdges' ordinal='20' />
+            <column datatype='integer' name='PartnerOfMultiEdgedNodePairs' ordinal='21' />
+            <column datatype='real' name='Radiality' ordinal='22' />
+            <column datatype='boolean' name='selected' ordinal='23' />
+            <column datatype='integer' name='SelfLoops' ordinal='24' />
+            <column datatype='string' name='shared name' ordinal='25' />
+            <column datatype='integer' name='Stress' ordinal='26' />
+            <column datatype='real' name='TopologicalCoefficient' ordinal='27' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;he&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₪&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;he_IL&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SUID]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>SUID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AverageShortestPathLength</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AverageShortestPathLength]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>AverageShortestPathLength</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BetweennessCentrality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BetweennessCentrality]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>BetweennessCentrality</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ClosenessCentrality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ClosenessCentrality]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>ClosenessCentrality</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ClusteringCoefficient</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ClusteringCoefficient]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>ClusteringCoefficient</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COMMON</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COMMON]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>COMMON</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LHE_RIL' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Degree</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Degree]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>Degree</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>degree.layout</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[degree.layout]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>degree.layout</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eccentricity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Eccentricity]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>Eccentricity</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gal1RGexp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gal1RGexp]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>gal1RGexp</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gal1RGsig</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gal1RGsig]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>gal1RGsig</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gal4RGexp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gal4RGexp]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>gal4RGexp</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gal4RGsig</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gal4RGsig]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>gal4RGsig</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gal80Rexp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gal80Rexp]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>gal80Rexp</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gal80Rsig</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gal80Rsig]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>gal80Rsig</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>isExcludedFromPaths</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[isExcludedFromPaths]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>isExcludedFromPaths</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsSingleNode</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[IsSingleNode]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>IsSingleNode</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LHE_RIL' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NeighborhoodConnectivity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NeighborhoodConnectivity]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>NeighborhoodConnectivity</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumberOfDirectedEdges</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumberOfDirectedEdges]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>NumberOfDirectedEdges</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumberOfUndirectedEdges</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumberOfUndirectedEdges]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>NumberOfUndirectedEdges</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PartnerOfMultiEdgedNodePairs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PartnerOfMultiEdgedNodePairs]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>PartnerOfMultiEdgedNodePairs</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Radiality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Radiality]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>Radiality</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>selected</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[selected]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>selected</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SelfLoops</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SelfLoops]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>SelfLoops</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shared name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shared name]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>shared name</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LHE_RIL' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stress</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Stress]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>Stress</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TopologicalCoefficient</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TopologicalCoefficient]</local-name>
+            <parent-name>[galFiltered.sif default node.csv]</parent-name>
+            <remote-alias>TopologicalCoefficient</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.345982' measure-ordering='alphabetic' measure-percentage='0.654018' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Israel&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Select Node' name='[Action1]'>
+      <activation type='on-select' />
+      <source datasource='federated.1efrg290tytyjc14g72ag0z79pjt' type='datasource' />
+      <link caption='' expression='http://localhost:3000/?item=&quot;&lt;[name]&gt;&quot;' />
+    </action>
+    <action caption='Reset Selection' name='[Action2]'>
+      <source datasource='federated.1efrg290tytyjc14g72ag0z79pjt' type='datasource' />
+      <link caption='' expression='http://localhost:3000' />
+    </action>
+    <datasources>
+      <datasource caption='galFiltered.sif default node' name='federated.1efrg290tytyjc14g72ag0z79pjt' />
+    </datasources>
+    <datasource-dependencies datasource='federated.1efrg290tytyjc14g72ag0z79pjt'>
+      <column datatype='string' name='[name]' role='dimension' type='nominal' />
+    </datasource-dependencies>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='galFiltered.sif default node' name='federated.1efrg290tytyjc14g72ag0z79pjt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1efrg290tytyjc14g72ag0z79pjt'>
+            <column datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1efrg290tytyjc14g72ag0z79pjt].[none:name:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7B8340E3-E8E1-4C0F-94AC-59A7F960AE71}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='41375' id='6' name='Sheet 1' w='98400' x='800' y='57625'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='' h='56625' id='5' param='http://localhost:3000/?item=&quot;YDR174W&quot;' type='web' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='10' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' forceUpdate='' h='56625' id='5' is-fixed='true' param='http://localhost:3000/?item=&quot;YDR174W&quot;' type='web' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41375' id='6' is-fixed='true' name='Sheet 1' w='98400' x='800' y='57625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{65672D3B-C4EF-42DA-B6B3-74A0F84E6243}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AFA9EAAA-2A26-4B9A-98B1-6535A2266C9E}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <selection-collection>
+            <node-selection select-tuples='false'>
+              <oriented-node-reference orientation='vertical'>
+                <node-reference>
+                  <fields>
+                    <field>[federated.1efrg290tytyjc14g72ag0z79pjt].[none:name:nk]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>&quot;YDR174W&quot;</bucket>
+                  </multibucket>
+                </node-reference>
+                <page-reference />
+              </oriented-node-reference>
+            </node-selection>
+          </selection-collection>
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{59D53A0F-5311-4564-8752-F22AC2A92A2D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      A23OJx1m6QoHAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='164'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
