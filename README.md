@@ -1,2 +1,4 @@
 # cytoscape-viewer
-A Tableau "extension" that allows Cytoscape networks integration
+A Tableau "extension" that allows Cytoscape networks integration.
+
+
